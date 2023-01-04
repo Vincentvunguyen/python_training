@@ -1,42 +1,55 @@
 numbers = [1, 2, 3.5, 4]
 
-max_value = max(numbers) # gia tri lon nhat cua list
+# gia tri lon nhat cua list nếu là sơ, nếu là str thì là str dài nhất
+max_value = max(numbers) 
 print(max_value)
 
-numbers.append(100)  # them 100 vao cuoi list
+# them 100 vao cuoi list
+numbers.append(100)  
 print(numbers)
 
-numbers.remove(1)  # xoa gia tri 1 hoac del numbers[1]
+# xoa gia tri 1 hoac del numbers[1]
+numbers.remove(1)  
 print(numbers)
 
-last_value = numbers.pop()  # lay ra gia tri cuoi cung va gan lao last_value
+# lay ra gia tri cuoi cung va gan vao last_value va xoa khoi list
+last_value = numbers.pop()  
 print(last_value)
 
-numbers.extend([3.5, 1000, 2, 125])  # them 1 list vao list hien co
+ # them 1 list vao list hien co
+numbers.extend([3.5, 1000, 2, 125]) 
 print(numbers)
 
-numbers[0] = 75  # thay doi gia tri 75 vao vi tri 0 cua 2 (vi tri dau tien)
+ # thay doi gia tri 75 vao vi tri 0 (vi tri dau tien)
+numbers[0] = 75 
 print(numbers)
 
-numbers.insert(1, 35) # them mot gia tri vao mot vi tri bat ki
+# them mot gia tri vao mot vi tri bat ki
+numbers.insert(1, 35) 
 print(numbers)
 
-amount = numbers.count(1000) # dem so luong gia tri 3.5 trong list
+# dem so luong gia tri 1000 trong list
+amount = numbers.count(1000) 
 print(amount)
 
-index_of_3p5 = numbers.index(3.5) # tim vi tri cua 3.5 trong list
+# tim vi tri cua 3.5 trong list, chi tra ve vi tri dau tien
+index_of_3p5 = numbers.index(3.5) 
 print(index_of_3p5)
 
-do_dai= len(numbers) # dem do dai cua list (so luong gia tri trong list)
+# dem do dai cua list (so luong gia tri trong list)
+do_dai= len(numbers) 
 print(do_dai)
 
-numbers.reverse() # dao nguoc list
+# dao nguoc list
+numbers.reverse() 
 print(numbers)
 
-numbers.sort() # sap xep lai list, neu muon xep tu lon den be numbers.sort(reverse = True)
+# sap xep lai list, neu muon xep tu lon den be numbers.sort(reverse = True)
+numbers.sort() 
 print(numbers)
 
-numbers.clear() # xoa toan bo gia tri trong list
+# xoa toan bo gia tri trong list
+numbers.clear() 
 print(numbers)
 
 
