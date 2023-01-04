@@ -1,0 +1,8 @@
+n = input('Nhập số nguyên: ')
+n = int(n)
+z = input('Nhập số thực: ')
+z = float(z)
+s = input('Nhập chuỗi: ')
+print(n)
+print(z)
+print(s)
