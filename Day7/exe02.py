@@ -33,6 +33,7 @@ print(album_info)
 
 # Thêm một key mới là amount = 2000 bằng hai cách
 # Cach 1: album_info.update(amount = "2000")
+# Cach 2:
 new_value = {
     'amount': 2000
 }
